@@ -128,10 +128,11 @@ body {
                     left: calc(50% - 300px);
                 }
                 @media (max-width:767px) {
-                    top: 25%;
-                    left: calc(50% - 140px);
+                    left: calc(50% - 250px);
                 }
-
+                @media (max-width:575px) {
+                    left: calc(50% - 180px);
+                }
                 button {
                     width: 200px;
                     height: 55px;
@@ -210,7 +211,9 @@ body {
                     @media (max-width:767px) {
                         font-size: 40px;
                     }
-
+                    @media (max-width:575px) {
+                        font-size: 30px;
+                    }
                 }
 
                 .sample-content {
@@ -253,8 +256,13 @@ body {
                 }
                 @media (max-width:767px) {
                     font-size: 40px;
-                    top: 60px;
-                    left: calc(50% - 100px);
+                    // top: 60px;
+                    left: calc(50% - 135px);
+                }
+                @media (max-width:575px) {
+                    font-size: 30px;
+                    // top: 60px;
+                    left: calc(50% - 105px);
                 }
             }
 
@@ -301,7 +309,7 @@ body {
                     text-align: center;
                     left: calc(50% - 170px);
                 }
-                @media (max-width:767px) {
+                @media (max-width:575px) {
                     left: calc(50% - 140px);
                 }
 

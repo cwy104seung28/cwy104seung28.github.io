@@ -135,8 +135,13 @@ body .sample03-container main.sample03-main .sample-text {
 
 @media (max-width: 767px) {
   body .sample03-container main.sample03-main .sample-text {
-    top: 25%;
-    left: calc(50% - 140px);
+    left: calc(50% - 250px);
+  }
+}
+
+@media (max-width: 575px) {
+  body .sample03-container main.sample03-main .sample-text {
+    left: calc(50% - 180px);
   }
 }
 
@@ -229,6 +234,12 @@ body .sample03-container main.sample03-main .sample-text .sample-title {
   }
 }
 
+@media (max-width: 575px) {
+  body .sample03-container main.sample03-main .sample-text .sample-title {
+    font-size: 30px;
+  }
+}
+
 body .sample03-container main.sample03-main .sample-text .sample-content {
   font-size: 50px;
   text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
@@ -277,8 +288,14 @@ body .sample03-container main.sample03-main #fade1 {
 @media (max-width: 767px) {
   body .sample03-container main.sample03-main #fade1 {
     font-size: 40px;
-    top: 60px;
-    left: calc(50% - 100px);
+    left: calc(50% - 135px);
+  }
+}
+
+@media (max-width: 575px) {
+  body .sample03-container main.sample03-main #fade1 {
+    font-size: 30px;
+    left: calc(50% - 105px);
   }
 }
 
@@ -323,7 +340,7 @@ body .sample04-container main.sample04-main .sample-text {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   body .sample04-container main.sample04-main .sample-text {
     left: calc(50% - 140px);
   }

@@ -15,18 +15,18 @@
 
 <body>
     <div class="sample03-container">
-        <nav class="navbar navbar-expand-lg sample-nav nav-03">
+        <nav class="navbar navbar-expand-lg bg-light sample-nav nav-03">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/navbar-icon-blue.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">首頁</a>
                         </li>
@@ -56,7 +56,11 @@
         </nav>
         <main class="sample03-main">
             <div class="sample-text">
-                <div class="sample-title">想要&emsp;&emsp;&emsp;&emsp;&emsp;沒問題！</div>
+                <div class="sample-title">想要
+                    <span class="sample03-notshow">&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+                    <span class="sample03-show"><br></span>
+                    沒問題！
+                </div>
                 <div class="sample-content">你許願，我來做！要什麼有什麼！</div>
                 <button class="more-btn">
                     <img class="more-img" src="./img/more-icon-blue.svg" alt="">
@@ -68,9 +72,10 @@
                     <img class="more-img-hover" src="./img/wish-icon-light-yellow.svg" alt="">
                     我要許願
                 </button>
+                <div id="fade1" class="sample-title" style="text-align:center;"></div>
             </div>
             <div id="particles-js"></div>
-            <div id="fade1" class="sample-title" style="text-align:center;"></div>
+            
         </main>
     </div>
     <div class="sample04-container">
@@ -115,7 +120,7 @@
         </nav>
         <main class="sample04-main">
             <div class="sample-text">
-                <div class="sample-title">想要&emsp;&emsp;&emsp;&emsp;&emsp;<br>沒問題！</div>
+                <div class="sample-title">想要&emsp;&emsp;&emsp;&emsp;&ensp;<br>沒問題！</div>
                 <div class="sample-content">你許願，我來做！<br>要什麼有什麼！</div>
                 <button class="more-btn">
                     <img class="more-img" src="./img/more-icon-black.svg" alt="">
@@ -127,11 +132,12 @@
                     <img class="more-img-hover" src="./img/wish-icon-yellow.svg" alt="">
                     我要許願
                 </button>
+                <div id="fade2" class="sample-title" style="text-align:center;"></div>
             </div>
-            <div id="fade2" class="sample-title" style="text-align:center;"></div>
+            
         </main>
     </div>
-    <div class="sample02-container">
+    <!-- <div class="sample02-container">
         <nav class="navbar navbar-expand-lg sample-nav nav-02">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -238,9 +244,7 @@
                 </button>
             </div>
         </main>
-    </div>
-    <script color="0,0,0" opacity="0.5" count="99" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js"
-        type="text/javascript" charset="utf-8"></script>
+    </div> -->
 </body>
 <script src="./js/particles.js-master/particles.js"></script>
 <script src="./js/app.js"></script>

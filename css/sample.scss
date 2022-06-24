@@ -96,7 +96,8 @@ body {
                 background-image: linear-gradient(130deg, #FFFFFF 35%, #192D79 35%);
             }
             @media (max-width:991px) {
-                background-image: linear-gradient(130deg, #FFFFFF 80%, #192D79 80%);
+                background-image: none;
+                background-color: #FFFFFF;
             }
         }
 
@@ -384,8 +385,11 @@ body {
                     @media (max-width:991px) {
                         font-size: 50px;
                     }
-                    @media (max-width:767px) {
+                    @media (max-width:575px) {
                         font-size: 40px;
+                    }
+                    @media (max-width:399px) {
+                        font-size: 35px;
                     }
                 }
 
@@ -401,7 +405,7 @@ body {
                     @media (max-width:991px) {
                         font-size: 30px;
                     }
-                    @media (max-width:767px) {
+                    @media (max-width:575px) {
                         font-size: 20px;
                     }
                 }
@@ -425,10 +429,13 @@ body {
                     font-size: 50px;
                     left: 135px;
                 }
-                @media (max-width:767px) {
+                @media (max-width:575px) {
                     font-size: 40px;
-                    top: 60px;
-                    left: calc(50% - 100px);
+                    top: 0px;
+                    left: calc(50% - 50px);
+                }
+                @media (max-width:399px) {
+                    font-size: 35px;
                 }
             }
         }
@@ -517,6 +524,10 @@ body {
 
                     @media (max-width:1199px) {
                         padding: 0px 10px;
+                    }
+                    @media (max-width:991px) {
+                        text-align: center;
+                        color: #192D79;
                     }
 
                     img {

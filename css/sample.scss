@@ -14,13 +14,15 @@ body {
             width: 100%;
             height: calc(100vh - 110px);
             background-image: url("../img/sample1-BG.png");
+
             // background-position-y: -90px;
-            .sample-text{
+            .sample-text {
                 position: absolute;
                 top: 250px;
                 left: 200px;
                 letter-spacing: 5px;
-                button{
+
+                button {
                     width: 420px;
                     height: 195px;
                     background-color: rgba(255, 255, 255, 0.7);
@@ -28,7 +30,8 @@ body {
                     font-size: 34px;
                     letter-spacing: 1px;
                     margin-top: 90px;
-                    img{
+
+                    img {
                         width: 90px;
                         margin-bottom: 10px;
                     }
@@ -36,6 +39,7 @@ body {
             }
         }
     }
+
     .sample02-container {
         nav.nav-02 {
             width: 100%;
@@ -43,18 +47,21 @@ body {
             position: absolute;
             z-index: 1;
         }
+
         main.sample02-main {
             position: relative;
             width: 100%;
             height: 100vh;
             background-image: url("../img/sample2-BG.png");
+
             // background-position-y: -90px;
-            .sample-text{
+            .sample-text {
                 position: absolute;
                 top: 250px;
                 left: 200px;
                 letter-spacing: 5px;
-                button{
+
+                button {
                     width: 240px;
                     height: 65px;
                     background-color: rgba(255, 255, 255, 0.7);
@@ -64,36 +71,41 @@ body {
                     margin-top: 85px;
                     border-radius: 10px;
                     padding-top: 10px;
-                    img{
+
+                    img {
                         width: 50px;
                         margin-right: 5px;
                     }
                 }
+
                 .sample-content {
                     font-size: 58px;
                 }
             }
         }
     }
+
     .sample03-container {
         nav.nav-03 {
             height: 110px;
             background-image: linear-gradient(130deg, #FFFFFF 30%, #192D79 30%);
         }
+
         main.sample03-main {
             position: relative;
             width: 100%;
             height: calc(100vh - 110px);
             background-image: url("../img/sample3-BG.png");
+
             // background-position-y: -90px;
-            .sample-text{
+            .sample-text {
                 position: absolute;
                 top: 250px;
                 left: calc(50% - 400px);
                 letter-spacing: 5px;
                 text-align: center;
 
-                button{
+                button {
                     width: 200px;
                     height: 55px;
                     background-color: #FCFF9F;
@@ -103,29 +115,55 @@ body {
                     margin-top: 60px;
                     border-radius: 10px;
                     padding-top: 5px;
-                    img{
+
+                    img {
                         width: 40px;
                         margin-right: 5px;
                     }
                 }
+
                 .sample-title {
                     font-size: 70px;
-                    text-shadow: rgba(0,0,0,0.5)5px 5px 5px;
+                    text-shadow: rgba(0, 0, 0, 0.5)5px 5px 5px;
                 }
-            
+
                 .sample-content {
                     font-size: 50px;
-                    text-shadow: rgba(0,0,0,0.5)2px 2px 5px;
+                    text-shadow: rgba(0, 0, 0, 0.5)2px 2px 5px;
                 }
             }
+
+            #particles-js {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
+                z-index: 2;
+                top: 0px;
+                mix-blend-mode: overlay;
+            }
+
+            #fade {
+                position: absolute;
+                font-size: 70px;
+                text-shadow: rgba(0, 0, 0, 0.5)5px 5px 5px;
+                top: 250px;
+                left: calc(50% - 200px);
+                color: #FFFFFF;
+            }
         }
+
     }
+
     .sample04-container {
         nav.nav-04 {
             width: 100%;
             height: 110px;
             position: absolute;
             z-index: 1;
+
             ul {
                 .nav-link {
                     font-size: 26px;
@@ -135,18 +173,21 @@ body {
                 }
             }
         }
+
         main.sample04-main {
             position: relative;
             width: 100%;
             height: 100vh;
             background-image: url("../img/sample4-BG.png");
+
             // background-position-y: -90px;
-            .sample-text{
+            .sample-text {
                 position: absolute;
                 top: 250px;
                 left: 200px;
                 letter-spacing: 5px;
-                button{
+
+                button {
                     width: 250px;
                     height: 65px;
                     background-color: #F9EB21;
@@ -156,23 +197,25 @@ body {
                     margin-top: 50px;
                     border-radius: 10px;
                     padding-top: 5px;
-                    img{
+
+                    img {
                         width: 50px;
                         margin-right: 5px;
                     }
                 }
+
                 .sample-title {
                     font-size: 76px;
                     color: #FFFFFF;
-                    text-shadow: rgba(0,0,0,0.5)5px 5px 5px;
+                    text-shadow: rgba(0, 0, 0, 0.5)5px 5px 5px;
                     line-height: 96px;
                     margin-bottom: 10px;
                 }
-            
+
                 .sample-content {
                     font-size: 65px;
                     color: #FCEE21;
-                    text-shadow: rgba(0,0,0,0.5)2px 2px 5px;
+                    text-shadow: rgba(0, 0, 0, 0.5)2px 2px 5px;
                     line-height: 80px;
                 }
             }
@@ -181,10 +224,12 @@ body {
 
     nav.sample-nav {
         .container-fluid {
+
             // padding: 10px 0px;
             // justify-content: space-around;
             .navbar-brand {
                 margin-left: 60px;
+
                 img {
                     width: 380px;
                 }
@@ -209,6 +254,7 @@ body {
         }
 
     }
+
     .sample-title {
         color: #FCEE21;
         font-size: 78px;
@@ -219,6 +265,7 @@ body {
         font-size: 54px;
     }
 }
-button{
+
+button {
     border: none;
 }

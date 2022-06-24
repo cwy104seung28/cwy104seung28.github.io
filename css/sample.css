@@ -127,6 +127,27 @@ body .sample03-container main.sample03-main .sample-text .sample-content {
   text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
 }
 
+body .sample03-container main.sample03-main #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 2;
+  top: 0px;
+  mix-blend-mode: overlay;
+}
+
+body .sample03-container main.sample03-main #fade {
+  position: absolute;
+  font-size: 70px;
+  text-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+  top: 250px;
+  left: calc(50% - 200px);
+  color: #FFFFFF;
+}
+
 body .sample04-container nav.nav-04 {
   width: 100%;
   height: 110px;

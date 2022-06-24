@@ -132,10 +132,10 @@ body .sample03-container main.sample03-main .sample-text {
   }
 }
 
-@media (max-width: 659px) {
+@media (max-width: 767px) {
   body .sample03-container main.sample03-main .sample-text {
     top: 25%;
-    left: calc(50% - 250px);
+    left: calc(50% - 140px);
   }
 }
 
@@ -163,6 +163,18 @@ body .sample03-container main.sample03-main .sample-text button {
   }
 }
 
+@media (max-width: 991px) {
+  body .sample03-container main.sample03-main .sample-text button {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .sample03-container main.sample03-main .sample-text button {
+    margin-top: 10px;
+  }
+}
+
 body .sample03-container main.sample03-main .sample-text button:hover {
   background-color: #192D79;
   color: #FCFF9F;
@@ -181,12 +193,6 @@ body .sample03-container main.sample03-main .sample-text button img {
 
 body .sample03-container main.sample03-main .sample-text button .more-img-hover {
   display: none;
-}
-
-@media (max-width: 991px) {
-  body .sample03-container main.sample03-main .sample-text button {
-    margin-top: 30px;
-  }
 }
 
 body .sample03-container main.sample03-main .sample-text .more-btn:hover .more-img {
@@ -216,6 +222,12 @@ body .sample03-container main.sample03-main .sample-text .sample-title {
   }
 }
 
+@media (max-width: 767px) {
+  body .sample03-container main.sample03-main .sample-text .sample-title {
+    font-size: 40px;
+  }
+}
+
 body .sample03-container main.sample03-main .sample-text .sample-content {
   font-size: 50px;
   text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
@@ -227,19 +239,9 @@ body .sample03-container main.sample03-main .sample-text .sample-content {
   }
 }
 
-@media (max-width: 659px) {
-  body .sample03-container main.sample03-main .sample-text .sample03-notshow {
-    display: none;
-  }
-}
-
-body .sample03-container main.sample03-main .sample-text .sample03-show {
-  display: none;
-}
-
-@media (max-width: 659px) {
-  body .sample03-container main.sample03-main .sample-text .sample03-show {
-    display: block;
+@media (max-width: 767px) {
+  body .sample03-container main.sample03-main .sample-text .sample-content {
+    font-size: 20px;
   }
 }
 
@@ -271,10 +273,11 @@ body .sample03-container main.sample03-main #fade1 {
   }
 }
 
-@media (max-width: 659px) {
+@media (max-width: 767px) {
   body .sample03-container main.sample03-main #fade1 {
-    top: 70px;
-    left: calc(50% - 120px);
+    font-size: 40px;
+    top: 60px;
+    left: calc(50% - 100px);
   }
 }
 
@@ -316,6 +319,12 @@ body .sample04-container main.sample04-main .sample-text {
   body .sample04-container main.sample04-main .sample-text {
     text-align: center;
     left: calc(50% - 170px);
+  }
+}
+
+@media (max-width: 767px) {
+  body .sample04-container main.sample04-main .sample-text {
+    left: calc(50% - 140px);
   }
 }
 
@@ -404,6 +413,12 @@ body .sample04-container main.sample04-main .sample-text .sample-title {
   }
 }
 
+@media (max-width: 767px) {
+  body .sample04-container main.sample04-main .sample-text .sample-title {
+    font-size: 40px;
+  }
+}
+
 body .sample04-container main.sample04-main .sample-text .sample-content {
   font-size: 55px;
   color: #FCEE21;
@@ -419,6 +434,12 @@ body .sample04-container main.sample04-main .sample-text .sample-content {
 @media (max-width: 991px) {
   body .sample04-container main.sample04-main .sample-text .sample-content {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .sample04-container main.sample04-main .sample-text .sample-content {
+    font-size: 20px;
   }
 }
 
@@ -442,6 +463,30 @@ body .sample04-container main.sample04-main #fade2 {
   body .sample04-container main.sample04-main #fade2 {
     font-size: 50px;
     left: 135px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .sample04-container main.sample04-main #fade2 {
+    font-size: 40px;
+    top: 60px;
+    left: calc(50% - 100px);
+  }
+}
+
+@media (max-width: 767px) {
+  body .sample-notshow {
+    display: none;
+  }
+}
+
+body .sample-show {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body .sample-show {
+    display: block;
   }
 }
 

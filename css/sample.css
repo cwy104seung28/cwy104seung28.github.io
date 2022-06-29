@@ -187,6 +187,12 @@ body .sample03-container main.sample03-main .sample-text button {
   }
 }
 
+@media (max-width: 575px) {
+  body .sample03-container main.sample03-main .sample-text button {
+    font-size: 18px;
+  }
+}
+
 body .sample03-container main.sample03-main .sample-text button:hover {
   background-color: #192D79;
   color: #FCFF9F;
@@ -385,6 +391,12 @@ body .sample04-container main.sample04-main .sample-text button {
     width: 150px;
     height: 35px;
     font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  body .sample04-container main.sample04-main .sample-text button {
+    font-size: 18px;
   }
 }
 

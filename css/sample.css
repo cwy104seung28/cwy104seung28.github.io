@@ -141,7 +141,13 @@ body .sample03-container main.sample03-main .sample-text {
 
 @media (max-width: 575px) {
   body .sample03-container main.sample03-main .sample-text {
-    left: calc(50% - 180px);
+    left: calc(50% - 190px);
+  }
+}
+
+@media (max-width: 409px) {
+  body .sample03-container main.sample03-main .sample-text {
+    left: calc(50% - 150px);
   }
 }
 
@@ -296,6 +302,12 @@ body .sample03-container main.sample03-main #fade1 {
   body .sample03-container main.sample03-main #fade1 {
     font-size: 30px;
     left: calc(50% - 105px);
+  }
+}
+
+@media (max-width: 409px) {
+  body .sample03-container main.sample03-main #fade1 {
+    left: calc(50% - 30px);
   }
 }
 
@@ -652,5 +664,15 @@ body .sample-title {
 body .sample-content {
   color: #FFFFFF;
   font-size: 54px;
+}
+
+body .sample-show {
+  display: none;
+}
+
+@media (max-width: 409px) {
+  body .sample-show {
+    display: block;
+  }
 }
 /*# sourceMappingURL=sample.css.map */

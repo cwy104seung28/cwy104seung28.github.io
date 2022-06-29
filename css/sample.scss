@@ -131,7 +131,10 @@ body {
                     left: calc(50% - 250px);
                 }
                 @media (max-width:575px) {
-                    left: calc(50% - 180px);
+                    left: calc(50% - 190px);
+                }
+                @media (max-width:409px) {
+                    left: calc(50% - 150px);
                 }
                 button {
                     width: 200px;
@@ -214,6 +217,9 @@ body {
                     @media (max-width:575px) {
                         font-size: 30px;
                     }
+                    // @media (max-width:409px) {
+                    //     font-size: 20px;
+                    // }
                 }
 
                 .sample-content {
@@ -226,6 +232,9 @@ body {
                     @media (max-width:767px) {
                         font-size: 20px;
                     }
+                    // @media (max-width:409px) {
+                    //     font-size: 16px;
+                    // }
                 }
             }
 
@@ -263,6 +272,9 @@ body {
                     font-size: 30px;
                     // top: 60px;
                     left: calc(50% - 105px);
+                }
+                @media (max-width:409px) {
+                    left: calc(50% - 30px);
                 }
             }
 
@@ -569,5 +581,12 @@ body {
     .sample-content {
         color: #FFFFFF;
         font-size: 54px;
+    }
+
+    .sample-show{
+        display: none;
+        @media (max-width:409px) {
+            display: block;
+        }
     }
 }
